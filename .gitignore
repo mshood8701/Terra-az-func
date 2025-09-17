@@ -3,7 +3,8 @@
 .terraform.lock.hcl
 
 # Terraform state files
-*.tfstate
+*.tfstate.
+*.tfstate.*
 *.tfstate.backup
 
 # Variable definition files (can contain secrets)
@@ -15,4 +16,4 @@
 # Crash logs
 crash.log
 
-.terraform/
+
